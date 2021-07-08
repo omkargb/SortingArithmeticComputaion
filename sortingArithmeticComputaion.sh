@@ -17,3 +17,7 @@ echo " a+b*c = $calc1 "
 #Computation 2 : a*b+c
 calc2=$(($a*$b+$c))
 echo " a*b+c = $calc2 "
+
+#Computation 3 : c+a/b
+calc3=$(awk "BEGIN { printf $c+$a/$b }" )
+echo " c+a/b = $calc3 "
