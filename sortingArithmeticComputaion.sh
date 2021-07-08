@@ -1,3 +1,4 @@
+#!/bin/bash -x
 #Arithmetic Computation & Sorting Problem
 #This problem computes different arithmetic expressions and Sorts the results
 
@@ -12,3 +13,7 @@ read -p " Enter 3rd number (c) : " c
 #Computation 1 : a+b*c
 calc1=$(($a+$b*$c))
 echo " a+b*c = $calc1 "
+
+#Computation 2 : a*b+c
+calc2=$(($a*$b+$c))
+echo " a*b+c = $calc2 "
